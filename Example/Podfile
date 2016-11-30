@@ -1,13 +1,13 @@
 use_frameworks!
 
-target 'sm_Example' do
-    pod 'sm', :path => '../'
-    pod "MagicalRecord"
+target 'Example' do
+    pod 'ADISuperMemo2', :path => '../'
+    # pod "MagicalRecord"
 end
 
 #target 'sm_Tests' do
 #    inherit! :search_paths
-#    
+#
 #    pod 'Quick', '~> 0.8'
 #    pod 'Nimble', '~> 3.0'
 #end

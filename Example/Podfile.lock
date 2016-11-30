@@ -1,21 +1,16 @@
 PODS:
-  - MagicalRecord (2.3.2):
-    - MagicalRecord/Core (= 2.3.2)
-  - MagicalRecord/Core (2.3.2)
-  - sm (0.1.0)
+  - ADISuperMemo2 (0.1.0)
 
 DEPENDENCIES:
-  - MagicalRecord
-  - sm (from `../`)
+  - ADISuperMemo2 (from `../`)
 
 EXTERNAL SOURCES:
-  sm:
+  ADISuperMemo2:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
-  sm: '08dd171d44f3aceec81c69460d0c68306d63a28c'
+  ADISuperMemo2: f731accac7ac5bcdbc211de9905bc3fcf327ce80
 
-PODFILE CHECKSUM: 58ad7b2efa8eb4781fcc2a97d5794a670616d8e3
+PODFILE CHECKSUM: c42b25d708aa7251330d10dc3181f94c490c1473
 
 COCOAPODS: 1.1.1
