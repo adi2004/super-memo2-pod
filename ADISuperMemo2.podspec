@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Form more information on the Super Memo 2 algoritm visit https://www.supermemo.com/english/ol/sm2.htm.
+Implementation tries to mimic the AnkiDroid app.
                        DESC
 
   s.homepage         = 'https://github.com/adi2004/super-memo2-pod'

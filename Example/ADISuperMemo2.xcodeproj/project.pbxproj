@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3A42B59F1DEF836D004D5419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42B5951DEF836D004D5419 /* AppDelegate.swift */; };
-		3A42B5A01DEF836D004D5419 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A42B5971DEF836D004D5419 /* LaunchScreen.xib */; };
-		3A42B5A11DEF836D004D5419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42B5991DEF836D004D5419 /* Main.storyboard */; };
-		3A42B5A21DEF836D004D5419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A42B59B1DEF836D004D5419 /* Images.xcassets */; };
-		3A42B5A41DEF836D004D5419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42B59D1DEF836D004D5419 /* Main.storyboard */; };
 		3A42B5A51DEF836D004D5419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42B59E1DEF836D004D5419 /* ViewController.swift */; };
+		3AD222E41DEF890A001FD3EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD222CB1DEF890A001FD3EF /* LaunchScreen.xib */; };
+		3AD222E51DEF890A001FD3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD222CC1DEF890A001FD3EF /* Main.storyboard */; };
+		3AD222E71DEF8964001FD3EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD222E61DEF8964001FD3EF /* Media.xcassets */; };
 		53696E97CC42A8834E944384 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CDC3909D07EEBA5BE1768 /* Pods_Example.framework */; };
 		591155588B8850503C3C93F3 /* Pods_sm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D389962F182983CC3E0EF /* Pods_sm_Example.framework */; };
 /* End PBXBuildFile section */
@@ -22,14 +21,13 @@
 		3180F1C8D7BFB67B8F218236 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		359D389962F182983CC3E0EF /* Pods_sm_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sm_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A42B5951DEF836D004D5419 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ADISuperMemo2/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		3A42B5981DEF836D004D5419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		3A42B59A1DEF836D004D5419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		3A42B59B1DEF836D004D5419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ADISuperMemo2/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		3A42B59C1DEF836D004D5419 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ADISuperMemo2/Info.plist; sourceTree = SOURCE_ROOT; };
-		3A42B59D1DEF836D004D5419 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ADISuperMemo2/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		3A42B59E1DEF836D004D5419 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ADISuperMemo2/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		3AD222CB1DEF890A001FD3EF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ADISuperMemo2/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		3AD222CC1DEF890A001FD3EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ADISuperMemo2/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		3AD222E61DEF8964001FD3EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ADISuperMemo2/Media.xcassets; sourceTree = SOURCE_ROOT; };
 		425CDC3909D07EEBA5BE1768 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* SuperMemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		672243C0FDFC0C514E2E61C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -53,16 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A42B5961DEF836D004D5419 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				3A42B5971DEF836D004D5419 /* LaunchScreen.xib */,
-				3A42B5991DEF836D004D5419 /* Main.storyboard */,
-			);
-			name = Base.lproj;
-			path = ADISuperMemo2/Base.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +66,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* Example.app */,
+				607FACD01AFB9204008FA782 /* SuperMemo2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,12 +74,12 @@
 		607FACD21AFB9204008FA782 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				3AD222CB1DEF890A001FD3EF /* LaunchScreen.xib */,
+				3AD222CC1DEF890A001FD3EF /* Main.storyboard */,
 				3A42B5951DEF836D004D5419 /* AppDelegate.swift */,
-				3A42B5961DEF836D004D5419 /* Base.lproj */,
-				3A42B59B1DEF836D004D5419 /* Images.xcassets */,
 				3A42B59C1DEF836D004D5419 /* Info.plist */,
-				3A42B59D1DEF836D004D5419 /* Main.storyboard */,
 				3A42B59E1DEF836D004D5419 /* ViewController.swift */,
+				3AD222E61DEF8964001FD3EF /* Media.xcassets */,
 			);
 			name = Example;
 			path = sm;
@@ -165,7 +153,7 @@
 			);
 			name = Example;
 			productName = sm;
-			productReference = 607FACD01AFB9204008FA782 /* Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* SuperMemo2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,10 +196,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A42B5A41DEF836D004D5419 /* Main.storyboard in Resources */,
-				3A42B5A21DEF836D004D5419 /* Images.xcassets in Resources */,
-				3A42B5A01DEF836D004D5419 /* LaunchScreen.xib in Resources */,
-				3A42B5A11DEF836D004D5419 /* Main.storyboard in Resources */,
+				3AD222E51DEF890A001FD3EF /* Main.storyboard in Resources */,
+				3AD222E71DEF8964001FD3EF /* Media.xcassets in Resources */,
+				3AD222E41DEF890A001FD3EF /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,25 +263,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3A42B5971DEF836D004D5419 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A42B5981DEF836D004D5419 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		3A42B5991DEF836D004D5419 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A42B59A1DEF836D004D5419 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -396,7 +364,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SuperMemo2;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0.1;
 			};
@@ -414,7 +382,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SuperMemo2;
 				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;

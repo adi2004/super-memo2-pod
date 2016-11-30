@@ -89,7 +89,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func assesment(_ sender: Any) {
-        print("Touch up inside!")
         if let sender = sender as? UIButton {
             let assesment = Double(sender.title(for: .normal)!)
             card?.update(with: assesment!)
