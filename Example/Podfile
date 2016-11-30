@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'Example' do
+    # pod 'ADISuperMemo2'
     pod 'ADISuperMemo2', :path => '../'
     # pod "MagicalRecord"
 end
