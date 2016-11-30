@@ -13,7 +13,6 @@
 		3AD222E51DEF890A001FD3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD222CC1DEF890A001FD3EF /* Main.storyboard */; };
 		3AD222E71DEF8964001FD3EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD222E61DEF8964001FD3EF /* Media.xcassets */; };
 		53696E97CC42A8834E944384 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425CDC3909D07EEBA5BE1768 /* Pods_Example.framework */; };
-		591155588B8850503C3C93F3 /* Pods_sm_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D389962F182983CC3E0EF /* Pods_sm_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591155588B8850503C3C93F3 /* Pods_sm_Example.framework in Frameworks */,
 				53696E97CC42A8834E944384 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +354,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAACE68503CC4D736F7DDC7C /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A3C4Y4NZNJ;
@@ -374,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3180F1C8D7BFB67B8F218236 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = A3C4Y4NZNJ;
