@@ -1,12 +1,12 @@
 use_frameworks!
 
 target 'sm_Example' do
-  pod 'sm', :path => '../'
-
-  target 'sm_Tests' do
-    inherit! :search_paths
-
-    pod 'Quick', '~> 0.8'
-  pod 'Nimble', '~> 3.0'
-  end
+    pod 'sm', :path => '../'
+    pod "MagicalRecord"
+#    target 'sm_Tests' do
+#        inherit! :search_paths
+#        
+#        pod 'Quick', '~> 0.8'
+#        pod 'Nimble', '~> 3.0'
+#    end
 end

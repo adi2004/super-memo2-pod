@@ -1,0 +1,22 @@
+{
+  "name": "sm",
+  "version": "0.1.0",
+  "summary": "Basic implementation of the SuperMemo algorithm",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/sm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Adrian Florescu": "florescu.adrian@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/adi2004/sm.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sm/Classes/**/*"
+}
