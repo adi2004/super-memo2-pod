@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'sm'
   s.version          = '0.1.0'
-  s.summary          = 'Basic implementation of the SuperMemo algorithm'
+  s.summary          = 'Basic implementation of the SuperMemo2 algorithm'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/sm'
+  s.homepage         = 'https://github.com/adi2004/sm'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Adrian Florescu' => 'florescu.adrian@gmail.com' }
@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'sm/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
-  #   'sm' => ['sm/Assets/*.png']
+  #   'sm' => ['Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -13,6 +13,7 @@ public class Card {
     public let answer: String
     public var repetition: Int
     public var eFactor: Double
+    public var repeatOn: Date
     var interval: Double
     
     public init(question q:String,
@@ -23,6 +24,7 @@ public class Card {
         self.answer = a
         self.repetition = r
         self.eFactor = e
+        self.repeatOn = Date()
         self.interval = 0
     }
     
@@ -31,6 +33,7 @@ public class Card {
             repetition = 0
             // eFactor remains unchanged
             interval = 0
+            repeatOn = Date()
         } else {
             repetition += 1
             if repetition == 1 {
@@ -40,6 +43,7 @@ public class Card {
             } else {
                 interval = interval * eFactor
             }
+            repeatOn = Date(timeIntervalSinceNow: interval * 24 * 3600)
             eFactor = eFactor - 0.8 + 0.28 * assessment - 0.02 * assessment * assessment
             eFactor = setBounds(eFactor)
         }
@@ -52,7 +56,7 @@ public class Card {
     }
     
     public func repetitionInterval() -> Int {
-        print(interval)
+        //print(interval)
         return Int(interval + 0.5)
     }
 }

@@ -1,30 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TDx-Yx-44q">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="k00-bu-gB6">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="sm_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TDx-Yx-44q" customClass="ViewController" customModule="sm_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="AMt-Zp-ZVE"/>
+                        <viewControllerLayoutGuide type="bottom" id="qhW-mA-V5k"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="Gcv-Xn-WDp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="repeatOn: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOR-1L-1Sg">
+                                <rect key="frame" x="16" y="20" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eFactor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAA-fQ-G4z">
+                                <rect key="frame" x="16" y="49" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0m5-g1-O6O">
+                                <rect key="frame" x="16" y="629" width="30" height="30"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="assesment:" destination="Nzd-0b-3ks" eventType="touchUpInside" id="cOc-aW-XFz"/>
+                                    <outletCollection property="gestureRecognizers" destination="bVg-xW-Wmx" appends="YES" id="LgS-eV-Pql"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAC-Ob-Yad">
+                                <rect key="frame" x="54" y="629" width="30" height="30"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="assesment:" destination="Nzd-0b-3ks" eventType="touchUpInside" id="4Zr-o1-XVV"/>
+                                    <outletCollection property="gestureRecognizers" destination="bVg-xW-Wmx" appends="YES" id="6De-js-aUB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRu-OI-7PJ">
+                                <rect key="frame" x="92" y="629" width="30" height="30"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="assesment:" destination="Nzd-0b-3ks" eventType="touchUpInside" id="vnr-5t-3yX"/>
+                                    <outletCollection property="gestureRecognizers" destination="bVg-xW-Wmx" appends="YES" id="Kfh-xT-HqY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCX-Yf-wFp">
+                                <rect key="frame" x="253" y="629" width="30" height="30"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="assesment:" destination="Nzd-0b-3ks" eventType="touchUpInside" id="A4X-Ey-snz"/>
+                                    <outletCollection property="gestureRecognizers" destination="bVg-xW-Wmx" appends="YES" id="UzR-Rx-0EZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMw-B2-7vr">
+                                <rect key="frame" x="291" y="629" width="30" height="30"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="assesment:" destination="Nzd-0b-3ks" eventType="touchUpInside" id="k69-Ok-Cqa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bw5-eb-Eae">
+                                <rect key="frame" x="329" y="629" width="30" height="30"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="assesment:" destination="Nzd-0b-3ks" eventType="touchUpInside" id="wkM-mf-Y5G"/>
+                                    <outletCollection property="gestureRecognizers" destination="bVg-xW-Wmx" appends="YES" id="Qdd-S3-7fJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPk-25-kHl">
+                                <rect key="frame" x="16" y="78" width="343" height="543"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Question?"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="TDx-Yx-44q" eventType="touchUpInside" id="It0-ST-Lfh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qhW-mA-V5k" firstAttribute="top" secondItem="LRu-OI-7PJ" secondAttribute="bottom" constant="8" id="3ha-xI-ZRn"/>
+                            <constraint firstItem="AAA-fQ-G4z" firstAttribute="trailing" secondItem="Gcv-Xn-WDp" secondAttribute="trailingMargin" id="3tF-Xb-mPQ"/>
+                            <constraint firstItem="qhW-mA-V5k" firstAttribute="top" secondItem="BMw-B2-7vr" secondAttribute="bottom" constant="8" id="5FM-ni-WUh"/>
+                            <constraint firstAttribute="trailing" secondItem="jCX-Yf-wFp" secondAttribute="trailing" constant="92" id="61I-Cc-SIs"/>
+                            <constraint firstItem="BMw-B2-7vr" firstAttribute="top" secondItem="nPk-25-kHl" secondAttribute="bottom" constant="8" id="75E-ON-3DX"/>
+                            <constraint firstItem="oAC-Ob-Yad" firstAttribute="leading" secondItem="0m5-g1-O6O" secondAttribute="trailing" constant="8" symbolic="YES" id="ABk-NT-V5V"/>
+                            <constraint firstItem="Bw5-eb-Eae" firstAttribute="leading" secondItem="BMw-B2-7vr" secondAttribute="trailing" constant="8" symbolic="YES" id="CVl-Qd-bMn"/>
+                            <constraint firstItem="AAA-fQ-G4z" firstAttribute="top" secondItem="NOR-1L-1Sg" secondAttribute="bottom" constant="8" id="FBe-de-c7E"/>
+                            <constraint firstItem="qhW-mA-V5k" firstAttribute="top" secondItem="jCX-Yf-wFp" secondAttribute="bottom" constant="8" id="HfL-hs-1T3"/>
+                            <constraint firstItem="NOR-1L-1Sg" firstAttribute="top" secondItem="AMt-Zp-ZVE" secondAttribute="bottom" id="Hxy-CN-osl"/>
+                            <constraint firstItem="nPk-25-kHl" firstAttribute="top" secondItem="AAA-fQ-G4z" secondAttribute="bottom" constant="8" id="KJ9-aP-uuI"/>
+                            <constraint firstItem="qhW-mA-V5k" firstAttribute="top" secondItem="oAC-Ob-Yad" secondAttribute="bottom" constant="8" id="Ond-gX-g2C"/>
+                            <constraint firstItem="nPk-25-kHl" firstAttribute="leading" secondItem="Gcv-Xn-WDp" secondAttribute="leadingMargin" id="QWI-SM-BOT"/>
+                            <constraint firstItem="AAA-fQ-G4z" firstAttribute="leading" secondItem="Gcv-Xn-WDp" secondAttribute="leadingMargin" id="WA7-oy-AhH"/>
+                            <constraint firstItem="oAC-Ob-Yad" firstAttribute="top" secondItem="nPk-25-kHl" secondAttribute="bottom" constant="8" id="WQC-1h-MTm"/>
+                            <constraint firstItem="NOR-1L-1Sg" firstAttribute="leading" secondItem="Gcv-Xn-WDp" secondAttribute="leadingMargin" id="Wwm-Qd-06z"/>
+                            <constraint firstItem="Bw5-eb-Eae" firstAttribute="top" secondItem="nPk-25-kHl" secondAttribute="bottom" constant="8" id="XUV-fL-0ot"/>
+                            <constraint firstItem="nPk-25-kHl" firstAttribute="trailing" secondItem="Gcv-Xn-WDp" secondAttribute="trailingMargin" id="c6p-Ss-io2"/>
+                            <constraint firstItem="nPk-25-kHl" firstAttribute="top" secondItem="AAA-fQ-G4z" secondAttribute="bottom" constant="8" id="e82-QZ-9u0"/>
+                            <constraint firstItem="qhW-mA-V5k" firstAttribute="top" secondItem="Bw5-eb-Eae" secondAttribute="bottom" constant="8" id="gEb-er-QGh"/>
+                            <constraint firstItem="0m5-g1-O6O" firstAttribute="top" secondItem="nPk-25-kHl" secondAttribute="bottom" constant="8" id="h8I-sB-JcG"/>
+                            <constraint firstItem="NOR-1L-1Sg" firstAttribute="trailing" secondItem="Gcv-Xn-WDp" secondAttribute="trailingMargin" id="lJF-Mu-54S"/>
+                            <constraint firstItem="jCX-Yf-wFp" firstAttribute="top" secondItem="nPk-25-kHl" secondAttribute="bottom" constant="8" id="mQu-X8-a7B"/>
+                            <constraint firstItem="AAA-fQ-G4z" firstAttribute="top" secondItem="NOR-1L-1Sg" secondAttribute="bottom" constant="8" id="pxF-B6-asc"/>
+                            <constraint firstItem="BMw-B2-7vr" firstAttribute="leading" secondItem="jCX-Yf-wFp" secondAttribute="trailing" constant="8" symbolic="YES" id="rEU-Wx-JTz"/>
+                            <constraint firstItem="LRu-OI-7PJ" firstAttribute="top" secondItem="nPk-25-kHl" secondAttribute="bottom" constant="8" id="rS0-my-UEV"/>
+                            <constraint firstItem="qhW-mA-V5k" firstAttribute="top" secondItem="0m5-g1-O6O" secondAttribute="bottom" constant="8" id="rSL-9s-TTG"/>
+                            <constraint firstItem="oAC-Ob-Yad" firstAttribute="leading" secondItem="Gcv-Xn-WDp" secondAttribute="leading" constant="54" id="sd6-k3-UTz"/>
+                            <constraint firstItem="LRu-OI-7PJ" firstAttribute="leading" secondItem="oAC-Ob-Yad" secondAttribute="trailing" constant="8" symbolic="YES" id="waB-Sh-rjT"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="eFactor" destination="AAA-fQ-G4z" id="WA1-EJ-C6z"/>
+                        <outlet property="question" destination="nPk-25-kHl" id="o2u-6F-KdA"/>
+                        <outlet property="repeatOn" destination="NOR-1L-1Sg" id="Rke-sm-TA9"/>
+                        <outletCollection property="assesmentButtons" destination="LRu-OI-7PJ" collectionClass="NSMutableArray" id="7Ls-FP-TCl"/>
+                        <outletCollection property="assesmentButtons" destination="jCX-Yf-wFp" collectionClass="NSMutableArray" id="kZ6-W0-t3R"/>
+                        <outletCollection property="assesmentButtons" destination="oAC-Ob-Yad" collectionClass="NSMutableArray" id="EOa-g5-xRh"/>
+                        <outletCollection property="assesmentButtons" destination="Bw5-eb-Eae" collectionClass="NSMutableArray" id="b8S-f6-5B9"/>
+                        <outletCollection property="assesmentButtons" destination="BMw-B2-7vr" collectionClass="NSMutableArray" id="US2-Cf-TR0"/>
+                        <outletCollection property="assesmentButtons" destination="0m5-g1-O6O" collectionClass="NSMutableArray" id="4xN-Q5-gxg"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nzd-0b-3ks" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bVg-xW-Wmx">
+                    <connections>
+                        <action selector="assesmentTapped:" destination="TDx-Yx-44q" id="gkh-4x-lKs"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="104.8" y="55.322338830584712"/>
         </scene>
     </scenes>
 </document>

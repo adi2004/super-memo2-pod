@@ -1,9 +1,9 @@
 {
   "name": "sm",
   "version": "0.1.0",
-  "summary": "Basic implementation of the SuperMemo algorithm",
+  "summary": "Basic implementation of the SuperMemo2 algorithm",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/sm",
+  "homepage": "https://github.com/adi2004/sm",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "sm/Classes/**/*"
+  "source_files": "Classes/**/*"
 }

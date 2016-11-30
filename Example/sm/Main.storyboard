@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="sm_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUL-5g-wlA">
+                                <rect key="frame" x="16" y="28" width="343" height="569"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNa-WX-bhy">
+                                <rect key="frame" x="24" y="617" width="30" height="30"/>
+                                <state key="normal" title="0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5g-7a-1rI">
+                                <rect key="frame" x="82" y="617" width="30" height="30"/>
+                                <state key="normal" title="1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qud-sC-pTH">
+                                <rect key="frame" x="142" y="617" width="30" height="30"/>
+                                <state key="normal" title="2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkZ-TS-Ady">
+                                <rect key="frame" x="212" y="617" width="30" height="30"/>
+                                <state key="normal" title="3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GR-BD-lfM">
+                                <rect key="frame" x="321" y="617" width="30" height="30"/>
+                                <state key="normal" title="5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wk-fm-vbs">
+                                <rect key="frame" x="263" y="617" width="30" height="30"/>
+                                <state key="normal" title="4"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="CNa-WX-bhy" secondAttribute="bottom" constant="20" id="5gU-KF-Npl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7GR-BD-lfM" secondAttribute="trailing" constant="8" id="C9f-CF-jBt"/>
+                            <constraint firstItem="CNa-WX-bhy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="H0F-Ir-wmk"/>
+                            <constraint firstItem="r5g-7a-1rI" firstAttribute="leading" secondItem="CNa-WX-bhy" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" id="IyU-jC-9SV"/>
+                            <constraint firstItem="uUL-5g-wlA" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="MFD-fL-fYN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="4Wk-fm-vbs" secondAttribute="bottom" constant="20" id="P5k-5u-Ju4"/>
+                            <constraint firstItem="uUL-5g-wlA" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Tip-Wh-id3"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="uUL-5g-wlA" secondAttribute="bottom" constant="70" id="VgA-pM-gna"/>
+                            <constraint firstItem="4Wk-fm-vbs" firstAttribute="leading" secondItem="fkZ-TS-Ady" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" id="cN7-Md-HD4"/>
+                            <constraint firstItem="fkZ-TS-Ady" firstAttribute="leading" secondItem="Qud-sC-pTH" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" id="cPe-fA-I2c"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Qud-sC-pTH" secondAttribute="bottom" constant="20" id="elA-8Y-bBy"/>
+                            <constraint firstItem="Qud-sC-pTH" firstAttribute="leading" secondItem="r5g-7a-1rI" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" id="lUv-dh-4yH"/>
+                            <constraint firstItem="uUL-5g-wlA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="lb8-bG-BIL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="fkZ-TS-Ady" secondAttribute="bottom" constant="20" id="r3N-EK-rcB"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="r5g-7a-1rI" secondAttribute="bottom" constant="20" id="t1I-0v-2tZ"/>
+                            <constraint firstItem="7GR-BD-lfM" firstAttribute="leading" secondItem="4Wk-fm-vbs" secondAttribute="trailing" priority="999" constant="8" symbolic="YES" id="tsr-l4-abz"/>
+                            <constraint firstItem="CNa-WX-bhy" firstAttribute="top" secondItem="uUL-5g-wlA" secondAttribute="bottom" constant="20" id="z8A-cS-xWs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="105.69715142428787"/>
+        </scene>
+    </scenes>
+</document>
