@@ -361,7 +361,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/ADISuperMemo2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ro.infloresc.example.SuperMemo2;
 				PRODUCT_NAME = SuperMemo2;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0.1;
@@ -378,7 +378,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/ADISuperMemo2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ro.infloresc.example.SuperMemo2;
 				PRODUCT_NAME = SuperMemo2;
 				SWIFT_VERSION = 3.0.1;
 			};
