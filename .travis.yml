@@ -13,3 +13,6 @@ script:
 #- xcode-select -p
 - set -o pipefail && xcodebuild -workspace Example/ADISuperMemo2.xcworkspace -scheme Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+
+os: osx
+xcode_project: "Example/ADISuperMemo2.xcodeproj"
