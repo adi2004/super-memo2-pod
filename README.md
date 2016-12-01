@@ -1,9 +1,9 @@
 # ADISuperMemo2
 
-[![CI Status](http://img.shields.io/travis/Adrian Florescu/sm.svg?style=flat)](https://travis-ci.org/Adrian Florescu/ADISuperMemo2)
-[![Version](https://img.shields.io/cocoapods/v/sm.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
-[![License](https://img.shields.io/cocoapods/l/sm.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
-[![Platform](https://img.shields.io/cocoapods/p/sm.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
+[![CI Status](http://img.shields.io/travis/adi2004/super-memo2-pod.svg?style=flat)](https://travis-ci.org/adi2004/super-memo2-pod)
+[![Version](https://img.shields.io/cocoapods/v/ADISuperMemo2.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
+[![License](https://img.shields.io/cocoapods/l/ADISuperMemo2.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
+[![Platform](https://img.shields.io/cocoapods/p/ADISuperMemo2.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
 
 ## Example
 
