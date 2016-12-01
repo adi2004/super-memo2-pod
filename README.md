@@ -1,9 +1,9 @@
-# sm
+# ADISuperMemo2
 
-[![CI Status](http://img.shields.io/travis/Adrian Florescu/sm.svg?style=flat)](https://travis-ci.org/Adrian Florescu/sm)
-[![Version](https://img.shields.io/cocoapods/v/sm.svg?style=flat)](http://cocoapods.org/pods/sm)
-[![License](https://img.shields.io/cocoapods/l/sm.svg?style=flat)](http://cocoapods.org/pods/sm)
-[![Platform](https://img.shields.io/cocoapods/p/sm.svg?style=flat)](http://cocoapods.org/pods/sm)
+[![CI Status](http://img.shields.io/travis/Adrian Florescu/sm.svg?style=flat)](https://travis-ci.org/Adrian Florescu/ADISuperMemo2)
+[![Version](https://img.shields.io/cocoapods/v/sm.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
+[![License](https://img.shields.io/cocoapods/l/sm.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
+[![Platform](https://img.shields.io/cocoapods/p/sm.svg?style=flat)](http://cocoapods.org/pods/ADISuperMemo2)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-sm is available through [CocoaPods](http://cocoapods.org). To install
+ADISuperMemo2 is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "sm"
+pod "ADISuperMemo2"
 ```
 
 ## Author
