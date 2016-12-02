@@ -22,7 +22,7 @@ pod "ADISuperMemo2"
 
 ## Author
 
-Adrian Florescu, adrian.florescu@ro.ibm.com
+Adrian Florescu, florescu.adrian@gmail.com 
 
 ## License
 
